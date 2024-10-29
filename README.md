@@ -23,6 +23,10 @@ This script is designed to interact with the Alianza API to check the registrati
   - `datetime`
   - `sys`
 
+To install dependencies:
+```bash
+pip install requests
+```
 
 ## Setup
 
