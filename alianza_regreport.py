@@ -15,9 +15,6 @@ def authenticate():
         username = input("Enter your Alianza Admin username: ")
         password = getpass.getpass("Enter your Alianza Admin password: ")
 
-        # Mask the password in any logging
-        masked_password = '*' * len(password)
-
         url = "https://api.alianza.com/v2/authorize"
 
         data = {"username": username, "password": password}
