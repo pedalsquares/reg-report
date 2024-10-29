@@ -32,6 +32,7 @@ pip install requests
 
 1. Clone the repository or download the script.
 2. Replace `PartitionId` in the script with your actual partition ID.
+3. If your enviroment does not already have the `requests` libary, follow install dependancies step above
 
 
 ## Usage
