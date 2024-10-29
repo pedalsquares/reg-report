@@ -55,7 +55,7 @@ python alianza_regreport.py accounts.csv
 On execution:
 
 1. You will be prompted to enter your Alianza Admin username and password to authenticate with the API.
-2. The script will generate a report CSV file in the same directory, named inputfilename_REPORT_<timestamp>.csv.
+2. The script will generate a report CSV file in the same directory, named `inputfilename_REPORT_<timestamp>.csv`.
 
 
 ## Script Details
