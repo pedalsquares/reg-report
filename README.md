@@ -10,7 +10,7 @@ This script is designed to interact with the Alianza API to check the registrati
 - [Error Handling](#error-handling)
 
 ---
-
+<br><br>
 ## Requirements
 
 - Python 3.7 or higher
@@ -27,6 +27,8 @@ To install dependencies:
 ```bash
 pip install requests
 ```
+<br><br><br>
+
 
 ## Setup
 
@@ -35,10 +37,10 @@ pip install requests
 ![PartitionId](https://raw.githubusercontent.com/pedalsquares/reg-report/main/images/image_partitionId.png)
 ![Variable](https://raw.githubusercontent.com/pedalsquares/reg-report/main/images/image_variable.png)
 
+3. If your enviroment does not already have the `requests` libary, follow install dependancies step above
 
-4. If your enviroment does not already have the `requests` libary, follow install dependancies step above
 
-
+<br><br><br>
 ## Usage
 
 Run the script using the following command:
@@ -64,6 +66,7 @@ On execution:
 2. The script will generate a report CSV file in the same directory, named `inputfilename_REPORT_<timestamp>.csv`.
 
 
+<br><br><br>
 ## Script Details
 Key Functions
 - `authenticate()`: Authenticates the user with the Alianza API and retrieves an authentication token.
