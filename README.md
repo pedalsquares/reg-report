@@ -34,7 +34,7 @@ pip install requests
 
 1. Clone the repository or download the script.
 2. Replace `PartitionId` in the script with your actual partition ID. You will find your `PartitionId` in the url path name visible in your browser when loging into the admin portal. You want the string of characters which comes immediatly after the admin.alianza.com/THIS-IS-YOUR_PARTITION-ID/accounts/recent 
-![PartitionId](https://raw.githubusercontent.com/pedalsquares/reg-report/main/images/image_partitionId.png)
+![PartitionId](https://raw.githubusercontent.com/pedalsquares/reg-report/main/images/image_partitionId.png)<br>
 ![Variable](https://raw.githubusercontent.com/pedalsquares/reg-report/main/images/image_variable.png)
 
 3. If your enviroment does not already have the `requests` libary, follow install dependancies step above
@@ -53,13 +53,16 @@ python alianza_regreport.py <inputfile>
   - `accountNumber`: Account number associated with the device.
   - `macAddress`: MAC address of the device.
   - `lineNumber`: Line number associated with the device.
+    
+<br>
 
 EXAMPLE:
 ```bash
 python alianza_regreport.py example-input.csv
 ```
-Example input file showing the correct headers and a ficticious account/device/line is in repo. See file `example-input.csv`
+_Example input file showing the correct headers and a ficticious account/device/line is in repo. See file `example-input.csv`_
 
+<br>
 On execution:
 
 1. You will be prompted to enter your Alianza Admin username and password to authenticate with the API.
