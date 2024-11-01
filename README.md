@@ -48,14 +48,16 @@ python alianza_regreport.py <inputfile>
 ```
 
 - `<inputfile>`: Path to your input CSV file with the following columns:
-  - `<accountNumber>`: Account number associated with the device.
-  - `<macAddress>`: MAC address of the device.
-  - `<lineNumber>`: Line number associated with the device.
+  - `accountNumber`: Account number associated with the device.
+  - `macAddress`: MAC address of the device.
+  - `lineNumber`: Line number associated with the device.
 
 EXAMPLE:
 ```bash
 python alianza_regreport.py accounts.csv
 ```
+Example input file showing the correct headers and a ficticious account/device/line is in repo. See file `example-input.csv`
+
 On execution:
 
 1. You will be prompted to enter your Alianza Admin username and password to authenticate with the API.
