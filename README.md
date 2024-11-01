@@ -31,8 +31,8 @@ pip install requests
 ## Setup
 
 1. Clone the repository or download the script.
-2. Replace `PartitionId` in the script with your actual partition ID. You can find your `PartitionId` in the browser URL path. It's the string of random characters after the https://admin.alianza.com/
-![PartitionId](https://raw.githubusercontent.com/pedalsquares/reg-report/main/images/image_partitionId.png
+2. Replace `PartitionId` in the script with your actual partition ID. You will find your `PartitionId` in the url path name visible in your browser when loging into the admin portal. You want the string of characters which somes immediatly after the admin.alianza.com/THIS-IS-YOUR_PARTITION-ID/accounts/recent 
+![PartitionId](https://raw.githubusercontent.com/pedalsquares/reg-report/main/images/image_partitionId.png)
 
 4. If your enviroment does not already have the `requests` libary, follow install dependancies step above
 
