@@ -27,6 +27,11 @@ To install dependencies:
 ```bash
 pip install requests
 ```
+
+On macOS it will likely be
+```bash
+pip3 install requests
+```
 <br><br><br>
 
 
