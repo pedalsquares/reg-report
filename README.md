@@ -14,7 +14,7 @@ This script is designed to interact with the Alianza API to check the registrati
 ## Requirements
 
 - Python 3.7 or higher
-- The following Python libraries:
+- The following Python libraries (all except `requests` are part of the standard library):
   - `csv`
   - `json`
   - `logging`
