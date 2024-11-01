@@ -54,7 +54,7 @@ python alianza_regreport.py <inputfile>
 
 EXAMPLE:
 ```bash
-python alianza_regreport.py accounts.csv
+python alianza_regreport.py example-input.csv
 ```
 Example input file showing the correct headers and a ficticious account/device/line is in repo. See file `example-input.csv`
 
