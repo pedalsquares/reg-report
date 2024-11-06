@@ -23,7 +23,7 @@ This script is designed to interact with the Alianza API to check the registrati
   - `datetime`
   - `sys`
 
-To install dependencies: 
+Use [PIP](https://packaging.python.org/en/latest/tutorials/installing-packages/) to install dependencies, it's normally installed with python by default.
 ```bash
 pip install requests
 ```
@@ -32,7 +32,6 @@ On macOS it will likely be
 ```bash
 pip3 install requests
 ```
-[Python documentation for using pip](https://packaging.python.org/en/latest/tutorials/installing-packages/)
 <br><br><br>
 
 
