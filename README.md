@@ -23,7 +23,7 @@ This script is designed to interact with the Alianza API to check the registrati
   - `datetime`
   - `sys`
 
-To install dependencies:
+To install dependencies: 
 ```bash
 pip install requests
 ```
@@ -32,6 +32,7 @@ On macOS it will likely be
 ```bash
 pip3 install requests
 ```
+[Python documentation for using pip](https://packaging.python.org/en/latest/tutorials/installing-packages/)
 <br><br><br>
 
 
@@ -86,7 +87,7 @@ Logging and Output
 - Logging has been removed to help protect passwords that are entered from remaining in log files.
 - It prints the registration status for each device to the console and writes the result to the output CSV file.
 
-Error Handling
+## Error Handling
 - `FileNotFoundError`: Triggered if the input file is not found.
 - `PermissionError`: Raised if there is no permission to read the input or write to the output file.
 - `requests.exceptions.RequestException`: Catches API errors related to connectivity or response issues.
